@@ -1,0 +1,41 @@
+.khoiTinNho{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.khoiTinNho .trai{
+    width: 60px;
+}
+
+.khoiTinNho .phai{
+    width: 220px;
+}
+
+img{
+    width: 100%;
+}
+
+.khoiTinNho .phai a.tieuDe{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.khoiTinNho .phai a.zing{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+
+.khoiTinNho .phai span.thoiGian{
+    font-size: 12px;
+    color: gray;
+}
+
+.khoiTinNho .phai a.lienQuan{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}

@@ -1,0 +1,35 @@
+ul.menuNgang{
+    /* display: flex; */
+    list-style: none;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.menuTren{
+    background-color: brown;
+    height: 30px;
+    width: 100%;
+}
+
+ul.menuNgang li{
+    display: inline;
+}
+
+ul.menuNgang li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 6px;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+ul.menuNgang li a:hover{
+    background-color: #8b3535;
+    /* padding-top: 3px;
+    padding-bottom: 9px; */
+}
+
